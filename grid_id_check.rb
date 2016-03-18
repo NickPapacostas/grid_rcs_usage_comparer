@@ -2,8 +2,6 @@ require 'uri'
 require 'csv'
 require 'typhoeus'
 require 'json'
-require 'optparse'
-require 'pry'
 
 require_relative 'lib/app_config.rb'
 require_relative 'lib/supplier.rb'

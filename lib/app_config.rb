@@ -1,6 +1,6 @@
 class AppConfig
   def self.key
-    if key = `echo $GR_API_KEY`.strip
+    if key = ENV['GR_API_KEY']
       key
     else
       raise "No api key found in env var 'GR_API_KEY'"
